@@ -1,0 +1,299 @@
+/* header */
+
+.nav-bar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 110;
+}
+
+.header {
+  width: 100%;
+  height: 72px;
+  box-shadow: 0px 2px 5px 1px #f0f0f0;
+}
+
+.header-container {
+  height: 68px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  background-color: #ebebeb;
+}
+
+.logo-header {
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.search-location-container {
+  height: 44px;
+  display: flex;
+  margin-left: 16px;
+}
+
+.locality-search {
+  height: 100%;
+  border: 2px solid black;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  background-color: white;
+}
+
+.locality-search-icon-container {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.locality-search-icon {
+  width: 17px;
+  height: 17px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.locality-search-box {
+  width: 170px;
+  height: 100%;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  padding: 0 0 0 16px;
+}
+
+.locality-search-da-container {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.locality-search-da {
+  width: 24px;
+  height: 24px;
+}
+
+i {
+  font-size: 26px;
+}
+
+.search-box-container {
+  display: flex;
+  margin-left: 16px;
+  outline: none;
+  border: none;
+}
+
+.main-search-box {
+  width: 1160px;
+  height: 100%;
+  padding: 0 8px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 3px 0 0 3px;
+  outline: none;
+}
+
+.main-search-box:focus {
+  border: 2px solid;
+  border-color: #23e5db;
+}
+
+.main-search-icon-container {
+  background-color: #002f34;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 3px 3px 0;
+}
+
+.main-search-icon {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}
+
+.header-end-section {
+  height: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.language-selector {
+  position: relative;
+  margin-left: 20px;
+}
+
+.language-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  color: #002f34;
+  /* Example color, adjust as needed */
+  display: flex;
+  align-items: center;
+}
+
+.language-button .arrow {
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.login-btn {
+  text-decoration: none;
+  color: #002f34;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 2px solid;
+  cursor: pointer;
+}
+
+.marging-class {
+  margin-left: 20px;
+}
+
+.login-btn:hover {
+  border-bottom: 0px solid;
+  margin-bottom: 2px;
+}
+
+.sell-btn {
+  position: absolute;
+  z-index: 1;
+  width: 80px;
+  padding: 9px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  cursor: pointer;
+}
+
+.sell-btn .sell-add {
+  font-size: 18px;
+}
+
+.sell-container {
+  position: relative;
+  width: 95px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 15px;
+}
+
+.sell-bg {
+  position: absolute;
+  right: 0;
+  width: 95px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.user-avatar {
+  margin-left: 15px;
+  width: 66px;
+}
+
+.user-avatar div {
+  display: flex;
+  align-items: center;
+}
+
+/* .hover-effecting {
+  position: relative;
+  height: 20px;
+}
+
+.logout-arrow {
+  transform: rotate(180deg);
+  transition: transform 0.4s ease-in;
+  height: 20px;
+  margin-left: 4px;
+}
+
+.logout-arrow:hover {
+  transform: rotate(360deg);
+} */
+
+/* Updated selector to target the container when arrow is hovered */
+/* .logout-arrow:hover + .login-btn-container {
+  transform: translateY(0);
+  opacity: 1;
+} */
+
+/* .login-btn-container {
+  position: absolute;
+  background-color: #23e5db;
+  top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 200px;
+  transform: translateY(-40px);
+  opacity: 0;
+  transition: all .5s ease-in-out;
+} */
+
+
+.hover-effecting {
+  position: relative;
+  height: 20px;
+}
+
+.logout-arrow {
+  transform: rotate(180deg);
+  transition: transform 0.4s ease-in;
+  height: 20px;
+  margin-left: 4px;
+}
+
+.hover-effecting:hover .logout-arrow {
+  transform: rotate(360deg);
+}
+
+/* Make the login-btn-container visible when hovering over the parent */
+.hover-effecting:hover .login-btn-container {
+  transform: translateY(0);
+  opacity: 1;
+  height: 47px;
+  transition: all 0.5s ease-in-out;
+}
+
+.login-btn-container {
+  position: absolute;
+  background-color: #b6b6b6;
+  top: 44px;
+  left: -60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 0px;
+  transform: translateY(-40px);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
