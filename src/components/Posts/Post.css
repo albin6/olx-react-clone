@@ -1,7 +1,8 @@
 .moreView {
-  margin: 16px 16px 24px;
+  width: 1280px;
+  margin: 16px auto 24px;
   padding: 16px 16px 32px;
-  background-color: #ebeeef;
+  background-color: #f5f5f5;
   border-radius: 4px;
 }
 
@@ -10,6 +11,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin-bottom: 15px;
 }
 
 .heading :first-child {
@@ -34,8 +36,8 @@
 .card {
   margin-right: 15px;
   padding: 13px;
-  max-width: 222px;
-  width: 222px;
+  max-width: 277px;
+  width: 277px;
   height: 250px;
   display: inline-block;
   cursor: pointer;
@@ -90,7 +92,9 @@
 }
 
 .recommendations {
-  margin: 16px 16px 24px;
+  width: 1280px;
+  margin: 16px auto 24px;
+  padding: 16px 16px 32px;
 }
 
 .recommendations .heading span {
