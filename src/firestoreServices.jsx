@@ -1,15 +1,15 @@
-import { firestore } from './firebase/config'
-import { collection, addDoc } from 'firebase/firestore'
+import { firestore } from "./firebase/config";
+import { collection, addDoc } from "firebase/firestore";
 
 // function for adding a new list
 export const addListing = async (listingData) => {
-    try {
-        const docRef = await addDoc(collection(firestore, 'users'), listingData)
-        alert('Document written with ID', docRef.id)
-    } catch (error) {
-        console.error('Error adding document', error)
-    }
-}
+  try {
+    const docRef = await addDoc(collection(firestore, "users"), listingData);
+    alert("Document written with ID", docRef.id);
+  } catch (error) {
+    console.error("Error adding document", error);
+  }
+};
 
 // Example function to handle form submission
 // ------------------------------------------

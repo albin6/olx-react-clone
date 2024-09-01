@@ -1,11 +1,11 @@
 .back-btn {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    padding: 12px 30px;
-    border-radius: 8px;
-    outline: none;
-    border: none;
-    font-size: 16px;
-    text-transform: uppercase;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  padding: 12px 30px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  text-transform: uppercase;
 }
